@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587122159616.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2829623781",
+    "id" : "88C1B19A",
+    "lastKnownWriteTime" : 1587141170,
+    "last_content_update" : 1587141170497,
+    "path" : "D:/MIS DOCUMENTOS/DATA SCIENCE/HOSPITAL DATA/best.R",
+    "project_path" : "best.R",
+    "properties" : {
+        "cursorPosition" : "16,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
