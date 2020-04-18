@@ -25,7 +25,7 @@ rankall <- function (outname= 'heart attack', num='best'){
         
         if (length (columna) == 0) 
                 hospital <-'enfermedad no disponible'
-        data.frame("hospital"= hospital,'estado'= estados)
+        data.frame("hospital"= hospital,'state'= estados)
         
 }
 
