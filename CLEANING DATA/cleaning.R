@@ -29,8 +29,10 @@ formatea<- function(){
 
 #Seleccionar las variables medias y std y crear tabla final resumen
 resume <- function(){
-           medias<- X_y_activities[, c(1,grep('*mean*|*std*',names(X_y_activities)),(length (X_y_activities)-2):length (X_y_activities))]
-      
+        medias<- X_y_activities[, c(1,grep('*mean*|*std*',names(X_y_activities)),(length (X_y_activities)-2):length (X_y_activities))]
+        resumen<- medias %>% group_by(subject, label) %>% summarise_at(vars(matches('*mean*|*std*')),mean)
+        resumen
+        }
 }
 
 
